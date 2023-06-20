@@ -110,13 +110,13 @@
                             <img class="img-fluid" src="assets/img/portfolio/seq2seq.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 6--> <!-- nextup -->
+                    <!-- Portfolio Item 6--> <!-- bert-grouping -->
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/nextup.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/bert-grouping.png" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -283,6 +283,7 @@
                                         <ul class= "mb-4 list-ul-centering">
                                             <li>k-means algorithm</li>
                                             <li>DBSCAN algorithm</li>
+                                            <li>Agglomerative hierarchial algorithm</li>
                                             <li>Available on <a href="https://github.com/sabn0/CLUS-ALG">github</a></li>
                                         </ul>  
                                     </div>
@@ -341,7 +342,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 6--> <!-- nextup -->
+        <!-- Portfolio Modal 6--> <!-- bert-grouping -->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -351,7 +352,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Next up</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Grouping sentences with ambiguous words</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -359,14 +360,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Working on a word gussing game web app</p>
+                                    <p class="mb-4">A tool to group sentences that share ambiguous words by semantical meaning</p>
                                     <div>
                                         <ul class= "mb-4 list-ul-centering">
-                                            <li>Backend side with Python, <b>Flask web framework</b>, frontend side with <b>Flutter</b></li>
+                                            <li>Sentences encoded with hidden states of a pre-trained <b>BERT model (hugginface, pytorch)</b></li>
+                                            <li>Grouping done using a complete-linkage agglomerative hierarchial clustring</li>
+                                            <li>Can be visuailized on a local web page (served by <b>Python - Flask</b>) </li>
                                         </ul>  
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nextup.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bert-grouping.png" alt="..." />
                                     <!-- Portfolio Modal - Back-->
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
